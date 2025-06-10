@@ -245,4 +245,15 @@ padding de 20px aplicado em todas as direções
   color: #fff;
   border: none;
   width: fit-content;
+  cursor: pointer;
+}
+
+.main__button:hover {
+  background-color: rgb(185, 14, 14);
+  transition: all 0.3s;
+}
+
+.main__button:active {
+  background-color: rgb(143, 0, 0);
+  transition: all 0.3s;
 }

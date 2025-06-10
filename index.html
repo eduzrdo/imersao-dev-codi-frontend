@@ -39,14 +39,14 @@
     <h2>Originais Netflix</h2>
 
     <div class="row__posters">
-      <img class="row__poster row__posterLarge" src="imagens/large-movie1.jpg" alt="" />
-      <img class="row__poster row__posterLarge" src="imagens/large-movie2.jpg" alt="" />
-      <img class="row__poster row__posterLarge" src="imagens/large-movie3.jpg" alt="" />
-      <img class="row__poster row__posterLarge" src="imagens/large-movie4.jpg" alt="" />
-      <img class="row__poster row__posterLarge" src="imagens/large-movie5.jpg" alt="" />
-      <img class="row__poster row__posterLarge" src="imagens/large-movie6.jpg" alt="" />
-      <img class="row__poster row__posterLarge" src="imagens/large-movie7.jpg" alt="" />
-      <img class="row__poster row__posterLarge" src="imagens/large-movie8.jpg" alt="" />
+      <img onclick="openMovieModal()" class="row__poster row__posterLarge" src="imagens/large-movie1.jpg" alt="" />
+      <img onclick="openMovieModal()" class="row__poster row__posterLarge" src="imagens/large-movie2.jpg" alt="" />
+      <img onclick="openMovieModal()" class="row__poster row__posterLarge" src="imagens/large-movie3.jpg" alt="" />
+      <img onclick="openMovieModal()" class="row__poster row__posterLarge" src="imagens/large-movie4.jpg" alt="" />
+      <img onclick="openMovieModal()" class="row__poster row__posterLarge" src="imagens/large-movie5.jpg" alt="" />
+      <img onclick="openMovieModal()" class="row__poster row__posterLarge" src="imagens/large-movie6.jpg" alt="" />
+      <img onclick="openMovieModal()" class="row__poster row__posterLarge" src="imagens/large-movie7.jpg" alt="" />
+      <img onclick="openMovieModal()" class="row__poster row__posterLarge" src="imagens/large-movie8.jpg" alt="" />
     </div>
   </div>
 
@@ -162,7 +162,7 @@
     </div>
   </div>
 
-  <div class="movie__modal__container">
+  <!-- <div class="movie__modal__container">
     <div class="movie__modal" style="background-image: url(imagens/small-movie1.jpg);">
       <div class="movie__modal__content">
         <div class="movie__modal__fade"></div>
@@ -177,15 +177,14 @@
           <span class="tag">Aventura</span>
         </div>
 
-        <p>Dom Toretto enfrenta seu maior desafio até agora: a corrida para salvar a família de um inimigo cheio de
-          rancor
-          e
-          fúria no volante.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus fugiat non placeat velit, nesciunt fuga
+          aperiam officia a expedita incidunt vero omnis dolorem, ratione quae voluptate facere doloribus minima
+          accusamus?</p>
 
         <button class="main__button">Vamos lá</button>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <script>
@@ -198,7 +197,13 @@
       }
     });
 
+    const openMovieModal = (event) => {
+      console.log(event)
+    }
 
+    const foo = () => {
+      console.log('test')
+    }
   </script>
 </body>
 
